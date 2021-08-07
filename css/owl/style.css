@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .cointeiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo:hover{
+    color: grey;
+
+}
+
+header .logo{
+    margin:1rem;
+    color: red;
+    font-size: 40px;
+
+
+}
+
+header nav a{
+    color:grey;
+    text-decoration: none;
+    margin: 1rem;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+
+
+.film-principal {
+    padding: 1rem;
+    font-size: 1rem;
+    background:linear-gradient(rgba(104, 103, 103, 0.5),rgba(104, 103, 103, 0.5)100%),url(/imgs/personagens.jpg);
+    height:400px;
+    font-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+} 
+
+.film-principal .title{
+    margin-top:15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.film-principal .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    
+}
+.botao{
+    background-color:rgba(0,0,0,.5);
+    border:none;
+    border-radius:5px ;
+    color:white;
+    padding:15px 30px;
+    margin-right:15px;
+    font-size:.75rem;
+    text-transform: uppercase;
+    
+    cursor:pointer;
+    transition: .5s ease all;
+}
+.botao:hover{
+    background-color:white;
+    color: black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.cointeiner{
+    margin-left: 20px;
+}
+.film-principal .cointeiner{
+    width: 80%;
+}
+ 
